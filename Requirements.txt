@@ -1,0 +1,8 @@
+pandas
+nltk
+sentence-transformers
+nrclex
+
+
+# Install dependencies in a separate notebook cell if needed:
+# %pip install pandas nltk sentence-transformers nrclex
