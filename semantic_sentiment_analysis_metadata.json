@@ -1,0 +1,22 @@
+{
+  "analysis_timestamp_utc": "2026-10-16T13:16:02.714635+00:00",
+  "python_version": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_max_sequence_length": 256,
+  "max_content_tokens_per_chunk": 254,
+  "chunk_overlap_tokens": 40,
+  "similarity_method": "Symmetric mean best-match chunk cosine similarity",
+  "emotion_method": "NRClex raw category counts and counts per 1000 words",
+  "baseline_path": "Prompts\\Baseline.txt",
+  "baseline_chunks": 1,
+  "processed_prompt_count": 80,
+  "missing_files": [],
+  "empty_prompt_pairs": [],
+  "package_versions": {
+    "pandas": "2.2.3",
+    "nltk": "3.9.2",
+    "sentence-transformers": "4.1.0",
+    "nrclex": "3.0.0",
+    "torch": "2.7.0"
+  }
+}
